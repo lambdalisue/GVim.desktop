@@ -10,7 +10,7 @@
 #
 #==============================================================================
 root="$(cd "$(dirname $0)"; pwd)"
-target="${HOME}/.local/share/desktop"
+target="${HOME}/.local/share/applications"
 
 if [[ ! -d "$target" ]]; then
     mkdir -p "$target"
